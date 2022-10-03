@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Formulário</title>
 </head>
 <body>
-    
 
+    <section class="container justify-content-container-center">
+        
+        <form class="form-container">
+            <div class="text-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/4081/4081553.png" width="50" height="50">
+            </div>
+            <h5 id="title-login" class="card-title mb-2 font-sarala-purple">Login</h5>
+            <p class="card-text font-sarala-purple">Aqui vocẽ preenche com todas as suas informações.</p>
+            <div class="mb-3">
+            <label id="email" for="inputEmail" class="form-label font-sarala-purple">Email</label>
+            <input type="email" class="input-color" id="inputEmail" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+            <label id="senha" for="inputPassword" class="form-label font-sarala-purple">Senha</label>
+            <input type="password" class="input-color" id="inputPassword">
+            </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="check">
+            <label class="form-check-label font-sarala-purple" for="check">Lembre-me</label>
+            </div>
+            <button type="submit" class="style-button text-light">Submit</button>
+        </form>
+    </section>
 
 </body>
 </html>
